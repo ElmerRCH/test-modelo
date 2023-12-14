@@ -1,0 +1,52 @@
+.container {
+  margin-top: -15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  background-color: bisque;
+}
+.form {
+  box-shadow:  5px 5px 5px #b3107c;
+  margin-top: 50px;
+  border: 3px solid #b3107c;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: bisque;
+  text-align: center;
+}
+input[type="file"] {
+  margin-bottom: 10px;
+  display: block;
+
+}
+button {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: bisque;
+}
+.container-imgs{
+  margin-top:20px;
+  display: flex;
+  background: white;
+  box-shadow:  2.5px 3px 5px rgb(94, 92, 92);
+  height: 50%;
+  width: 60%;
+  border-radius: 10px;
+}
+.container-imgs img{
+
+  width: 100%;
+  height:100%;
+
+
+  display: block;
+
+}
