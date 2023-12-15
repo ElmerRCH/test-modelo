@@ -1,9 +1,11 @@
 
 <div class="container">
+  <h1>test modelo</h1>
   <div class="form">
     <input type="file" (change)="onFileSelected($event)">
     <button mat-raised-button color="primary" (click)="uploadImage()">Enviar</button>
   </div>
+  
   <div class="container-imgs" *ngIf="mostrarDiv">
      <img [src]="imageUrl" alt="Imagen" *ngIf="imageUrl">
      <!--<img src="http://10.112.32.178:8100/static/test.jpg" alt="imagen">-->
