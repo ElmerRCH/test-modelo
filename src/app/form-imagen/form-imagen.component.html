@@ -1,0 +1,20 @@
+<div class="container">
+  <div class="form" *ngIf="!displayForm">
+    <input type="file" (change)="onFileSelected($event)">
+    <button mat-raised-button color="primary" (click)="uploadImage()">Enviar</button>
+  </div>
+
+  <div class="controlls-cortar" *ngIf="displaycortar">
+    <label class="input-1">puntos : y1<input type="number" id="input" placeholder="y1"></label>
+    <label class="input-2">puntos : y2<input type="number" id="input" placeholder="y2"></label>
+    <img id="size-img" [src]="imageUrl" alt="Imagen" *ngIf="imageUrl">
+    <label class="input-3">puntos : x1<input type="number" id="input" placeholder="x1"></label>
+    <label class="input-4">puntos : x2<input type="number" id="input" placeholder="x2"></label>
+
+  </div>
+
+  <div class="container-imgs" *ngIf="verificarModelo">
+     <img id="size-img" [src]="imageUrl" alt="Imagen" *ngIf="imageUrl">
+     <!--<img src="http://10.112.32.178:8100/static/test.jpg" alt="imagen">-->
+  </div>
+</div>

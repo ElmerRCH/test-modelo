@@ -1,0 +1,26 @@
+.container-navbar{
+  border-bottom:2px solid black;
+  min-width: 40%;
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.subtitle{
+  margin-left:5%;
+}
+.container-buttons{
+  margin-right:5%;
+  width: 25%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.container-buttons button{
+  margin: auto;
+  border: none;
+}
+.container-buttons button:active{
+  opacity: 0.5;
+}

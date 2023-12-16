@@ -28,8 +28,7 @@ export class CheckModeloComponent {
       const formData = new FormData();
 
       formData.append('image', this.selectedFile);
-      //Enviar el nombre como objeto JSON
-      this.http.post('http://0.0.0.0:8300/recibir-imagen',formData).subscribe(
+      this.http.post('http://0.0.0.0:8300/probar-modelo',formData).subscribe(
         (response) => {
 
           const url  = `http://0.0.0.0:8300/static/${response}`;

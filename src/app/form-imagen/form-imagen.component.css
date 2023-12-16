@@ -1,0 +1,102 @@
+.container {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  background-color: bisque;
+}
+.form {
+  box-shadow:  5px 5px 5px #b3107c;
+  margin-top: 50px;
+  border: 3px solid #b3107c;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: bisque;
+  text-align: center;
+}
+input[type="file"] {
+  margin-bottom: 10px;
+  display: block;
+
+}
+button {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: bisque;
+}
+.container-imgs{
+  margin-top:20px;
+  display: flex;
+  background: white;
+  box-shadow:  2.5px 3px 5px rgb(94, 92, 92);
+  height: 650px;
+  width: 700px;
+  border-radius: 10px;
+
+}
+#size-img{
+
+  width: 100%;
+  height:100%;
+  display: block;
+
+}
+
+.controlls-cortar{
+  border: 2px solid black;
+  height:100%;
+  width:100%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+
+}
+#input{
+  background-color: none;
+  max-height:20% ;
+}
+.input-1{
+
+  height: auto;
+  grid-column:4/4;
+  grid-row: 0/1;
+  background: none;
+  display: flex;
+  flex-direction: column;
+}
+.input-2{
+  height: auto;
+  grid-column: 3/4;
+  grid-row: 5/6;
+  display:flex;
+  flex-direction: column;
+
+}
+.input-3{
+  height: auto;
+  grid-column: 0/0;
+  grid-row: 3/4;
+  background: none;
+  display: flex;
+  flex-direction: column;
+}
+.input-4{
+  height: auto;
+  background: lawngreen;
+  grid-column: 6/7;
+  grid-row: 3/4;
+  background: none;
+
+}
+
+#controll-button{
+  background: none;
+}
+
